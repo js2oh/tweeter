@@ -1,0 +1,40 @@
+body header#main-header {
+  height: 400px;
+  width: 100%;
+}
+
+body header#main-header {
+  margin-top: 120px;
+}
+
+body header#main-header div#background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebd359;
+  background-image: url(https://www.transparenttextures.com/patterns/arches.png);
+}
+
+body header#main-header div#background div img {
+  margin-top: 30px;
+}
+
+body header#main-header div#background div h2 {
+  margin-top: 0px;
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+  body header#main-header {
+    width: 35%;
+    margin: 220px 80px 0px 40px;
+  }
+  body main.container {
+    width: 65%;
+    margin: 170px 40px 0px 80px;
+  }
+}

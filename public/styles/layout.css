@@ -18,8 +18,40 @@ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ body main {
+  width: 90%;
+  margin: 0 auto;
+  color: #545149;
+  background-color: #f4f1ec;
+ }
+
+ button {
+  cursor: pointer;
+ }
+
+ #back-to-top {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 25px; /* Some padding */
+  border-radius: 100px; /* Rounded corners */
+  font-size: 25px; /* Increase font size */
+}
+
+#back-to-top:hover {
+  background-color: rgb(200, 0, 0); /* Add a dark-grey background on hover */
+}

@@ -1,0 +1,55 @@
+nav {
+    height: 120px;
+    color: #FFFFFF;
+    background-color: #4056A1;
+    width: 100vw;
+    padding: 1.5em;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    display: flex;
+}
+
+nav span {
+    font-family: 'Bungee', cursive;
+    font-size: 50px;
+}
+
+nav div {
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+}
+
+button#compost {
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+
+button#compost span {
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+button#compost span:after {
+    content: '\25BC';
+    position: absolute;
+    opacity: 0;
+    bottom: -20px;
+    transition: 0.5s;
+  }
+  
+button#compost:hover span {
+    padding-bottom: 25px;
+  }
+  
+button#compost:hover span:after {
+    opacity: 1;
+    bottom: 0;
+}
